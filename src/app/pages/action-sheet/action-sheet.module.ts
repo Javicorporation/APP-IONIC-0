@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
 import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
 
+import { ComponentsModule } from 'src/app/components/components.module';
 import { ActionSheetPage } from './action-sheet.page';
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ActionSheetPage } from './action-sheet.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule
+    ActionSheetPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [ActionSheetPage]
 })
