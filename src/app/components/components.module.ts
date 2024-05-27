@@ -14,7 +14,8 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    
   ]
 })
 export class ComponentsModule { }

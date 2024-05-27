@@ -6,16 +6,18 @@ import { IonicModule } from '@ionic/angular';
 
 import { AlertPageRoutingModule } from './alert-routing.module';
 
+import { ComponentsModule } from "../../components/components.module";
 import { AlertPage } from './alert.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AlertPageRoutingModule,
-    CommonModule
-  ],
-  declarations: [AlertPage]
+    declarations: [AlertPage],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        AlertPageRoutingModule,
+        CommonModule,
+        ComponentsModule
+    ]
 })
 export class AlertPageModule {}
