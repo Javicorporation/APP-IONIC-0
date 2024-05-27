@@ -31,7 +31,7 @@ export class InicioPage implements OnInit {
     {
       icon: 'images-outline',
       name: 'Photos',
-      redirectTo: '/alert'
+      redirectTo: '/photos'
     }
   ];
 
