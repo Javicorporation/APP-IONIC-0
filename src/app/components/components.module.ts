@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { IonicModule } from '@ionic/angular';
 import { HeaderComponent } from './header/header.component';
 
 
@@ -12,7 +13,8 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule
   ]
 })
 export class ComponentsModule { }
