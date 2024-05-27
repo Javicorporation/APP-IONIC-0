@@ -32,6 +32,12 @@ export class InicioPage implements OnInit {
       icon: 'images-outline',
       name: 'Photos',
       redirectTo: '/photos'
+    },
+    {
+      icon:'file-tray-full-outline',
+      name:'Information',
+      redirectTo:'/information'
+
     }
   ];
 
